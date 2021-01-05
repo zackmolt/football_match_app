@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvPoints"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="224"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvGD"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="64"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/tvPoints"
+        app:layout_constraintTop_toTopOf="@+id/tvPoints" />
+
+    <TextView
+        android:id="@+id/tvGA"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="64"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/tvGD"
+        app:layout_constraintTop_toTopOf="@+id/tvPoints" />
+
+    <TextView
+        android:id="@+id/tvGF"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="64"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/tvGA"
+        app:layout_constraintTop_toTopOf="@+id/tvPoints" />
+
+    <TextView
+        android:id="@+id/tvWin"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="22"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/tvGF"
+        app:layout_constraintTop_toTopOf="@+id/tvPoints" />
+
+    <TextView
+        android:id="@+id/tvDraw"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="22"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/tvWin"
+        app:layout_constraintTop_toTopOf="@+id/tvPoints" />
+
+    <TextView
+        android:id="@+id/tvLoss"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="14"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/tvDraw"
+        app:layout_constraintTop_toTopOf="@+id/tvPoints" />
+
+    <TextView
+        android:id="@+id/tvPlayed"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="14"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/tvLoss"
+        app:layout_constraintTop_toTopOf="@+id/tvPoints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
